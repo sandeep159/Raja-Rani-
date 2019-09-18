@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Raja Rani Game</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" media="screen" href="style.css"></link>
+    </head>
+    <body>
+        <header>
+          <h1><img src="images/king.png" alt="" height="42" width="42">Raja-Rani<img src="images/queen.png" alt="" height="42" width="42"></h1>
+        </header>
+
+        <div class="badge">
+          <p>Score-Board</p>
+        </div>
+
+
+<div class="table">
+  <div class="table-row">
+    <div class="table-cell">
+      <p id="text1">player1</p>
+    </div>
+    <div class="table-cell">
+      <p id="text2">player2</p>
+    </div>
+    <div class="table-cell">
+      <p id="text3">player3</p>
+    </div>
+    <div class="table-cell">
+      <p id="text4">player4</p>
+    </div>
+    <div class="table-cell">
+      <p id="text5">player5</p>
+    </div>
+  </div>
+  <div class="table-row">
+    <div class="table-cell" id="playerp1">
+      0
+    </div>
+    <div class="table-cell" id="playerp2" >
+      0
+    </div>
+    <div class="table-cell" id="playerp3">
+      0
+    </div>
+    <div class="table-cell" id="playerp4">
+      0
+    </div>
+    <div class="table-cell" id="playerp5">
+      0
+    </div>
+  </div>
+</div>
+
+
+
+
+        <div class="result">
+          <p id="happened">""</p>
+        </div>
+
+        <div class="players">
+          <div class="player" id="p1">
+            <p id="t1">Player1</p>
+          </div>
+          <div class="player" id="p2">
+            <p id="t2">Player2</p>
+          </div>
+          <div class="player" id="p3">
+            <p id="t3">Player3</p>
+          </div>
+          <div class="player" id="p4">
+            <p id="t4">Player4</p>
+          </div>
+          <div class="player" id="p5">
+            <p id="t5">Player5</p>
+          </div>
+        </div>
+
+        <div id="action-message">
+          <p id="todo">press Start Game to start playing</p>
+        </div>
+
+        <div id="start-label" class="control-badge"><p>Start Game</p></div>
+        <div id="end-label" class="control-badge"><p>Quit</p></div>
+
+        <script src="app.js" charset="utf-8"></script>
+
+
+    </body>
+ </html>
