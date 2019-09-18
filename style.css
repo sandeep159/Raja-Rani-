@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #292C34;
+}
+
+header{
+  background: white;
+  padding: 20px;
+}
+
+header > h1{
+  color: #24272E;
+  text-align: center;
+  font-family: Asap,sans-serif;
+}
+
+
+.score-board{
+  margin:20px auto;
+  border: 3px;
+  width: 600px;
+  position: relative;
+}
+
+.tittle{
+  margin: 50px 0;
+  text-align: center;
+}
+
+.table {
+  display: table;
+  padding-left: 430px;
+  font-family: Asap,sans-serif;
+
+
+}
+.table-row {
+  display: table-row;
+  background: #4CAF50;
+  border-collapse: collapse
+
+}
+.table-cell {
+  display: table-cell;
+  padding: 20px;
+  border: 1px solid black;
+}
+.table-row:nth-child(even) {
+  background: white;
+}
+
+.score_table{
+  width:66.531;
+  height: 23;
+}
+
+
+.name{
+  display: inline-block;
+  font-family: Asap,sans-serif;
+  background-color: #4CAF50;
+  color: white;
+    /* border: 4px solid #4CAF50; */
+  margin: 0px 0px;
+  font-size: 20px;
+  padding: 20px;
+}
+
+
+.badge{
+  margin: 20px auto;
+  background: #E25840;
+  color: white;
+  font-size: 22px;
+  text-align: center;
+  border-radius: 10px;
+  width:200px;
+  padding: 10px 10px;
+  font-family: Asap,sans-serif;
+}
+
+.result{
+  font-size: 30px;
+  color:white;
+  padding-top: 1.1em;
+}
+
+.result > p{
+  text-align: center;
+  font-weight: bold;
+  font-family: Asap,sans-serif;
+}
+
+.players{
+  margin: 50px 0;
+  text-align: center;
+}
+
+.player{
+  display: inline-block;
+  font-family: Asap,sans-serif;
+  color: white;
+  border: 4px solid #4CAF50;
+  margin: 0px 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.player:hover{
+  cursor: pointer;
+  background: #39393F;
+}
+
+#action-message{
+  text-align: center;
+  color: white;
+  font-family: Asap,sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.control-badge{
+  background: #E25840;
+  margin: 20px auto;
+  color: white;
+  width: 150px;
+  font-size: 22px;
+  border-radius: 10px;
+  padding:20px 10px;
+  padding-bottom: 7px;
+  font-family: Asap,sans-serif;
+}
+
+#start-label{
+  position: absolute;
+  left:200px;
+  font-family: Asap,sans-serif;
+  transition: all 0.3s ease;
+}
+
+
+#start-label:hover{
+  cursor: pointer;
+  background: #4CAF50;
+}
+
+#end-label{
+  position: absolute;
+  right:200px;
+  font-family: Asap,sans-serif;
+  transition: all 0.3s ease;
+}
+
+
+#end-label:hover{
+  cursor: pointer;
+  background: #4CAF50;
+}
